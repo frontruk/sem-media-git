@@ -1,0 +1,22 @@
+{
+  "name": "@frontr/sem-media",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@frontr/sem-ui": "git+ssh://git@github.com/frontruk/sem-ui-git.git"
+  },
+  "main": "bundles/frontr-sem-media.umd.js",
+  "module": "fesm5/frontr-sem-media.js",
+  "es2015": "fesm2015/frontr-sem-media.js",
+  "esm5": "esm5/frontr-sem-media.js",
+  "esm2015": "esm2015/frontr-sem-media.js",
+  "fesm5": "fesm5/frontr-sem-media.js",
+  "fesm2015": "fesm2015/frontr-sem-media.js",
+  "typings": "frontr-sem-media.d.ts",
+  "metadata": "frontr-sem-media.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
