@@ -1,5 +1,6 @@
 import { EventEmitter, OnInit, OnChanges } from '@angular/core';
 export declare class SemPanelSettingsComponent implements OnInit, OnChanges {
+    private readonly platformId;
     cropped: EventEmitter<any>;
     uploaded: EventEmitter<any>;
     editImage: EventEmitter<any>;
@@ -14,7 +15,7 @@ export declare class SemPanelSettingsComponent implements OnInit, OnChanges {
     key: number;
     imageNameList: Array<string>;
     userImages: Array<any>;
-    constructor();
+    constructor(platformId: any);
     ngOnInit(): void;
     ngOnChanges(changes: any): void;
     onImageLoaded(file: any): void;
