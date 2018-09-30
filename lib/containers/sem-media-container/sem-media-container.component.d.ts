@@ -7,13 +7,11 @@ export declare class SemMediaContainerComponent implements OnInit {
         componentName: string;
         data: string;
     };
-    imageConfig: any;
     userImages?: Array<any>;
     editVisible: Boolean;
     key: Number;
     uploadPanelFlag: Boolean;
     imageNameList: Array<string>;
-    formData: Array<string>;
     config: any;
     tempImages: Array<any>;
     isTestAOpened: boolean;
