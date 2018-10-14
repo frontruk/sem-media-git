@@ -6,39 +6,44 @@
  * @record
  */
 export function Config() { }
-/** @type {?} */
-Config.prototype.fit;
-/** @type {?} */
-Config.prototype.crop;
-/** @type {?} */
-Config.prototype.zoom;
-/** @type {?} */
-Config.prototype.rotate;
-/** @type {?} */
-Config.prototype.apply;
+if (false) {
+    /** @type {?} */
+    Config.prototype.fit;
+    /** @type {?} */
+    Config.prototype.crop;
+    /** @type {?} */
+    Config.prototype.zoom;
+    /** @type {?} */
+    Config.prototype.rotate;
+    /** @type {?} */
+    Config.prototype.apply;
+}
 /**
  * @record
  */
 export function ControlBox() { }
-/** @type {?} */
-ControlBox.prototype.allText;
-/** @type {?} */
-ControlBox.prototype.metaTitle;
-/** @type {?} */
-ControlBox.prototype.config;
+if (false) {
+    /** @type {?} */
+    ControlBox.prototype.allText;
+    /** @type {?} */
+    ControlBox.prototype.metaTitle;
+    /** @type {?} */
+    ControlBox.prototype.config;
+}
 /**
  * @record
  */
 export function ImageModel() { }
-/** @type {?} */
-ImageModel.prototype.editMode;
-/** @type {?} */
-ImageModel.prototype.fileName;
-/** @type {?} */
-ImageModel.prototype.controlBox;
-/** @type {?} */
-ImageModel.prototype.uploadedImage;
-/** @type {?} */
-ImageModel.prototype.croppedImage;
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW1hZ2UuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AZnJvbnRyL3NlbS1tZWRpYS8iLCJzb3VyY2VzIjpbImxpYi9tb2RlbHMvaW1hZ2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBpbnRlcmZhY2UgQ29uZmlnIHtcbiAgZml0OiBCb29sZWFuO1xuICBjcm9wOiBCb29sZWFuO1xuICB6b29tOiBOdW1iZXI7XG4gIHJvdGF0ZTogTnVtYmVyO1xuICBhcHBseTogQm9vbGVhbjtcbn1cbmV4cG9ydCBpbnRlcmZhY2UgQ29udHJvbEJveCB7XG4gIGFsbFRleHQ6IHN0cmluZztcbiAgbWV0YVRpdGxlOiBzdHJpbmc7XG4gIGNvbmZpZzogQ29uZmlnO1xufVxuZXhwb3J0IGludGVyZmFjZSBJbWFnZU1vZGVsIHtcbiAgZWRpdE1vZGU6IEJvb2xlYW47XG4gIGZpbGVOYW1lOiBzdHJpbmc7XG4gIGNvbnRyb2xCb3g6IENvbnRyb2xCb3g7XG4gIHVwbG9hZGVkSW1hZ2U6IHN0cmluZztcbiAgY3JvcHBlZEltYWdlOiBzdHJpbmc7XG59XG4iXX0=
+if (false) {
+    /** @type {?} */
+    ImageModel.prototype.editMode;
+    /** @type {?} */
+    ImageModel.prototype.fileName;
+    /** @type {?} */
+    ImageModel.prototype.controlBox;
+    /** @type {?} */
+    ImageModel.prototype.uploadedImage;
+    /** @type {?} */
+    ImageModel.prototype.croppedImage;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW1hZ2UuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AZnJvbnRyL3NlbS1tZWRpYS8iLCJzb3VyY2VzIjpbImxpYi9tb2RlbHMvaW1hZ2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLDRCQU1DOzs7SUFMQyxxQkFBYTs7SUFDYixzQkFBYzs7SUFDZCxzQkFBYTs7SUFDYix3QkFBZTs7SUFDZix1QkFBZTs7Ozs7QUFFakIsZ0NBSUM7OztJQUhDLDZCQUFnQjs7SUFDaEIsK0JBQWtCOztJQUNsQiw0QkFBZTs7Ozs7QUFFakIsZ0NBTUM7OztJQUxDLDhCQUFrQjs7SUFDbEIsOEJBQWlCOztJQUNqQixnQ0FBdUI7O0lBQ3ZCLG1DQUFzQjs7SUFDdEIsa0NBQXFCIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGludGVyZmFjZSBDb25maWcge1xuICBmaXQ6IEJvb2xlYW47XG4gIGNyb3A6IEJvb2xlYW47XG4gIHpvb206IE51bWJlcjtcbiAgcm90YXRlOiBOdW1iZXI7XG4gIGFwcGx5OiBCb29sZWFuO1xufVxuZXhwb3J0IGludGVyZmFjZSBDb250cm9sQm94IHtcbiAgYWxsVGV4dDogc3RyaW5nO1xuICBtZXRhVGl0bGU6IHN0cmluZztcbiAgY29uZmlnOiBDb25maWc7XG59XG5leHBvcnQgaW50ZXJmYWNlIEltYWdlTW9kZWwge1xuICBlZGl0TW9kZTogQm9vbGVhbjtcbiAgZmlsZU5hbWU6IHN0cmluZztcbiAgY29udHJvbEJveDogQ29udHJvbEJveDtcbiAgdXBsb2FkZWRJbWFnZTogc3RyaW5nO1xuICBjcm9wcGVkSW1hZ2U6IHN0cmluZztcbn1cbiJdfQ==

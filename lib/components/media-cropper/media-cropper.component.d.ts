@@ -1,5 +1,5 @@
 import { OnInit, EventEmitter, OnChanges, NgZone } from '@angular/core';
-import { AngularCropperjsComponent } from 'angular-cropperjs';
+import { CropperComponent as AngularCropperjsComponent } from 'angular-cropperjs';
 import { SemMediaService } from '../../sem-media.service';
 export declare class SemCropperComponent implements OnInit, OnChanges {
     private zone;
