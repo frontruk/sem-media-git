@@ -23,4 +23,5 @@ export declare class SemMediaPanelSettingsComponent implements OnInit, OnChanges
     onEdit(index: any): void;
     onDelete(index: any): void;
     onChangedForm(formData: any): void;
+    closeDialog(): void;
 }

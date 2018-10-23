@@ -1,16 +1,16 @@
-import { OnInit, EventEmitter } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 import { SemVideoService } from '../../sem-video.service';
-export declare class SemVideoSettingsPanelComponent implements OnInit {
+import { YoutubeVideoModel } from '../../models/video';
+export declare class SemVideoSettingsPanelComponent {
     private semVideoService;
     close: EventEmitter<boolean>;
-    selected: EventEmitter<any>;
-    results: Array<any>;
+    selected: EventEmitter<YoutubeVideoModel>;
     config: any;
+    results: Array<YoutubeVideoModel>;
     page: number;
+    constructor(semVideoService: SemVideoService);
     loadSettings(): void;
     search(query: any): void;
-    constructor(semVideoService: SemVideoService);
-    ngOnInit(): void;
     addVideo(item: any): void;
     closeDialog(): void;
 }
