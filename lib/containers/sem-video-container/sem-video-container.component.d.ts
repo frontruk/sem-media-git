@@ -1,18 +1,9 @@
-import { OnInit, Injector } from '@angular/core';
+import { OnInit, EventEmitter, Injector } from '@angular/core';
 import { PaginationInstance } from 'ngx-pagination';
 export declare class SemVideoContainerComponent implements OnInit {
     private injector;
-    widget: {
-        componentName: string;
-        data: {
-            channelId: string;
-            channelTitle: string;
-            description: string;
-            thumbnailUrl: string;
-            title: string;
-            videoId: string;
-        };
-    };
+    data: any;
+    dataChange: EventEmitter<any>;
     isOpened: boolean;
     isTestAOpened: boolean;
     constructor(injector: Injector);
