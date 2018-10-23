@@ -8,9 +8,8 @@ export declare class SemVideoContainerComponent implements OnInit {
     isTestAOpened: boolean;
     constructor(injector: Injector);
     paginationConfig: PaginationInstance;
-    search(query: any): void;
     selectedItem(item: any): void;
     ngOnInit(): void;
-    closeOverlay(item: any): void;
+    closeOverlay(toggleStatus: boolean): void;
     openTestA(isOpened: boolean): void;
 }
