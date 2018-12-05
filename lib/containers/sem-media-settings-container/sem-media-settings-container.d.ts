@@ -1,6 +1,6 @@
-import { OnInit, EventEmitter, Injector } from '@angular/core';
+import { OnInit, Injector } from '@angular/core';
 import { SemMediaService } from '../../sem-media.service';
-export declare class SemMediaContainerComponent implements OnInit {
+export declare class SemMediaSettingsContainerComponent implements OnInit {
     private _mediaService;
     private injector;
     widget: {
@@ -15,8 +15,6 @@ export declare class SemMediaContainerComponent implements OnInit {
     config: any;
     tempImages: Array<any>;
     isTestAOpened: boolean;
-    data: any;
-    dataChange: EventEmitter<any>;
     constructor(_mediaService: SemMediaService, injector: Injector);
     ngOnInit(): void;
     uploadedImage(image: File): void;
@@ -27,6 +25,6 @@ export declare class SemMediaContainerComponent implements OnInit {
     onChangedForm(formData: any): void;
     onChangedEditMode(mode: string): void;
     onCroppedImage(index: any, croppedImage: any): void;
-    openSettings(status: boolean): void;
+    openTestA(isOpened: boolean): void;
     croppedImage(item: any): void;
 }

@@ -15,13 +15,15 @@ export declare class SemMediaPanelSettingsComponent implements OnInit, OnChanges
     key: number;
     imageNameList: Array<string>;
     userImages: Array<any>;
+    itemSeelcted: any;
     constructor(platformId: any);
     ngOnInit(): void;
     ngOnChanges(changes: any): void;
     onImageLoaded(file: any): void;
     onChangedMode(mode: any): void;
-    onEdit(index: any): void;
+    onEdit(index: any, item: any): void;
     onDelete(index: any): void;
     onChangedForm(formData: any): void;
     closeDialog(): void;
+    editSelected(item: any): void;
 }

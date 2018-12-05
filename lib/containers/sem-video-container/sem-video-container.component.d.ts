@@ -1,15 +1,17 @@
 import { OnInit, EventEmitter, Injector } from '@angular/core';
 import { YoutubeVideoModel } from '../../models/video';
-import { PaginationInstance } from 'ngx-pagination';
+export interface VideoObject {
+    id: string;
+    data: YoutubeVideoModel | null;
+}
 export declare class SemVideoContainerComponent implements OnInit {
     private injector;
-    data: YoutubeVideoModel;
+    data: VideoObject;
     dataChange: EventEmitter<any>;
+    selectedItem: EventEmitter<string>;
+    editMode: boolean;
     isTestAOpened: boolean;
     constructor(injector: Injector);
-    paginationConfig: PaginationInstance;
-    selectedItem(item: YoutubeVideoModel): void;
     ngOnInit(): void;
-    closeOverlay(toggleStatus: boolean): void;
-    openTestA(isOpened: boolean): void;
+    openSettings(status: boolean): void;
 }
